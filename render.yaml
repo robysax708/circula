@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: circula
+    runtime: node
+    buildCommand: cd backend && npm install && cd ../frontend && npm install && npm run build && rm -rf ../backend/public && cp -r dist ../backend/public
+    startCommand: cd backend && node --disable-warning=ExperimentalWarning src/server.js
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production
+      - key: DB_PATH
+        value: ./data/circula.db
+      - key: CORS_ORIGIN
+        value: "*"
