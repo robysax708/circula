@@ -1,0 +1,37 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Padrão geométrico do mapa (dentro do arco) -->
+  <g transform="translate(60, 55)">
+    <!-- Sol/burst -->
+    <g transform="translate(40, 25)">
+      <circle cx="0" cy="0" r="12" fill="#F2BFA0"/>
+      <g fill="#F2BFA0" opacity="0.7">
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(0)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(30)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(60)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(90)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(120)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(150)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(180)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(210)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(240)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(270)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(300)"/>
+        <rect x="-2" y="-28" width="4" height="12" rx="2" transform="rotate(330)"/>
+      </g>
+    </g>
+    <!-- Padrão de mapa geométrico -->
+    <g transform="translate(0, 40)">
+      <!-- Linhas diagonais coloridas -->
+      <path d="M5 45 L25 25 L45 25 L65 45 L75 45" stroke="#E8A87C" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 55 L20 35 L50 35 L70 55 L80 55" stroke="#D4C96A" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5 65 L25 45 L40 45 L55 60" stroke="#8BC5A0" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- Arco roxo principal -->
+  <path d="M140 40 C165 60, 175 100, 165 140 C155 170, 130 185, 100 185 C70 185, 45 170, 35 145 C28 125, 30 110, 35 100"
+    stroke="#9B59B6" stroke-width="18" fill="none" stroke-linecap="round"/>
+
+  <!-- Texto "Circula" -->
+  <text x="100" y="118" text-anchor="middle" font-family="'Playfair Display','Georgia',serif" font-weight="900" font-size="36" fill="#221833" letter-spacing="-1">Circula</text>
+</svg>
